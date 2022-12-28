@@ -1,12 +1,17 @@
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 15px;
+  column-gap: 16px;
   row-gap: 40px;
 }
 
+.video-title-link{ 
+  text-decoration: none;
+  color: black;
+}
+
 .thumbnails-row{ 
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .thumbnail{
@@ -15,11 +20,11 @@
 
 .video-info-grid{
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 48px 1fr;
 }
 
 .channel-picture{    
-  margin-right: 10px;
+  
 }
 
 .profile-picture{
@@ -31,7 +36,7 @@
 font-size: 14px;
 font-weight: 500;
 line-height: 20px;
-margin-bottom: 15px;
+margin-bottom: 10px;
 }
 
 .video-author,
